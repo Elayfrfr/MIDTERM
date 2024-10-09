@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Tasty Treats</title>
+    </head>
+
+
+
+    <body>
+        <nav class="navbar">
+            <ul class="nav-links">
+              <li><a href="dashboard.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+            </ul>
+          </nav>
+
+<header>
+    <h1>Welcome to John's Bakery</h1>
+</header>
+
+    
+
+    <div class="str">
+    <div>
+        <button id="orderButton">Order Here</button>
+    </div>
+
+    
+    <div class="order-form" id="orderForm" style="display: none;">
+    <h2>Custom Cake Order</h2>
+        <label for="flavor">Choose a Flavor:</label>
+        <select id="flavor">
+            <option value="vanilla">Vanilla</option>
+            <option value="chocolate">Chocolate</option>
+            <option value="redvelvet">Red Velvet</option>
+        </select>
+    <br><br>
+    <label for="size">Choose a Size:</label>
+        <select id="size">
+            <option value="small">Small</option>
+
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select>
+    <br><br>
+        <label for="design">Design Instructions:</label><br>
+        <textarea id="design" rows="4" cols="40" placeholder="Describe your design
+    here"></textarea>
+    <br><br>
+        <label for="contact">Your Contact Information:</label><br>
+        <input type="text" id="contact" placeholder="Your Name">
+    <br><br>
+        <input type="text" id="phone" placeholder="Your Phone">
+    <br><br>
+        <input type="email" id="email" placeholder="Your Email">
+    <br><br>
+        <button id="submitOrder">Submit</button>
+        <button id="cancelOrder">Cancel</button>
+    </div>
+    </div>
+</div>
+    <script src="form.js">
+    
+    </script>
+
+    </body>
+    </html>
